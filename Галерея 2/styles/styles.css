@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DEB896
+}
+
+header {
+    padding: 40px 0px 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Tulpen One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1ю2;
+    color: #6F3414;
+}
+
+.main {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #F1CFB1;
+    padding: 30px 80px;
+}
+
+.kind-of-art .title {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.title1 {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.caption {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+}
+
+.authors-metadata {
+    margin-left: 15px;
+}
+
+.authors-section .author-name {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    margin-bottom: 10px;
+}
+
+.authors-section .jenres {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    margin-bottom: 20px;
+}
+
+.authors-section .gallery-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.authors-section .gallery-image {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.authors-section .gallery-image img {
+    height: auto;
+    width: 100%;
+}
+
+.authors-section .gallery-image .caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DEB896;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .authors-section .gallery-image {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .authors-section .gallery-image {
+        flex-basis: 100%;
+    }
+}
+
+
+/* @media screen and (max-width: 480px) {
+    .body {
+        font-family: 'Montserrat', sans-serif;
+        justify-content: center;
+        max-width: 576px;
+    }
+
+    .main-content {
+        margin: 0;
+        justify-content: center;
+        max-width: fit-content;
+    }
+
+    .box {
+        justify-content: center;
+        display: flex;
+        max-width: fit-content;
+        flex-direction: column;
+
+    }
+
+    .block {
+        display: inline-block;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+        flex-basis: 30%;
+    }
+
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    background-color: #DEB896;
+    justify-content: center;
+
+}
+
+.main-content {
+    background-color: #F1CFB1;
+    margin: 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#container {
+    display: block;
+    flex-direction: column;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+
+}
+
+.name-site {
+    font-family: 'Tulpen One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 25px;
+    color: #6F3414;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+    justify-content: center;
+
+
+}
+
+.text1 {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 100px;
+    justify-content: center;
+}
+
+.text2 {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+.text3 {
+    font-family: 'Playfair Display', serif;
+    color: #6F3414;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.img1 {
+    max-height: 380px;
+    height: auto;
+    display: block;
+    margin-bottom: 1px;
+
+    margin-left: 60px;
+}
+
+.description1 {
+    margin-left: 170px;
+    margin-top: auto;
+}
+
+.img2 {
+    max-height: 380px;
+
+    margin-left: 60px;
+}
+
+.description2 {
+    margin-left: 165px;
+    margin-top: auto;
+}
+
+.block {
+    display: inline-block;
+    margin-bottom: 50px;
+
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.img3 {
+    max-height: 380px;
+    margin-left: 60px;
+}
+
+.description3 {
+    margin-left: 220px;
+    margin-top: auto;
+}
+
+.description4 {
+    margin-left: 230px;
+    margin-top: auto;
+}
+
+.description5 {
+    margin-left: 130px;
+    margin-top: auto;
+}
+
+.description6 {
+    margin-left: 160px;
+    margin-top: auto;
+}
+
+.description7 {
+    margin-left: 160px;
+    margin-top: auto;
+}
+
+.description8 {
+    margin-left: 155px;
+    margin-top: auto;
+}
+
+.description9 {
+    margin-left: 140px;
+    margin-top: auto;
+}
+
+.img10 {
+    max-height: 360px;
+    margin-left: 60px;
+}
+
+.img11 {
+    max-height: 360px;
+    margin-left: 60px;
+}
+
+.img12 {
+    max-height: 360px;
+    margin-left: 60px;
+}
+
+.description10 {
+    margin-left: 215px;
+    margin-top: auto;
+}
+
+.description11 {
+    margin-left: 170px;
+    margin-top: auto;
+}
+
+.description12 {
+    margin-left: 145px;
+    margin-top: auto;
+}
+
+.description13 {
+    margin-left: 179px;
+    margin-top: auto;
+}
+
+.description15 {
+    margin-left: 190px;
+    margin-top: auto;
+}
+
+.description14 {
+    margin-left: 179px;
+    margin-top: auto;
+}
+
+.description16 {
+    margin-left: 220px;
+    margin-top: auto;
+}
+
+.description17 {
+    margin-left: 220px;
+    margin-top: auto;
+}
+
+.description18 {
+    margin-left: 220px;
+    margin-top: auto;
+}
+
+.description20 {
+    margin-left: 170px;
+    margin-top: auto;
+}
+
+.description22 {
+    margin-left: 220px;
+    margin-top: auto;
+}
+
+.description21 {
+    margin-left: 179px;
+    margin-top: auto;
+}
+
+.description23 {
+    margin-left: 200px;
+    margin-top: auto;
+}
+
+.description25 {
+    margin-left: 170px;
+    margin-top: auto;
+}
+
+.description24 {
+    margin-left: 170px;
+    margin-top: auto;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    background-color: #DEB896;
+    justify-content: center;
+} */
